@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ResourceQuota
 metadata:
-  name: espistio
+  name: espistio-limits
   namespace: espistio
 spec:
   hard:
