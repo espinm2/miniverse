@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: espistio
+  namespace: espistio
+spec:
+  hard:
+    # TODO: Verify these are good defaults
+    request.cpu: 5m
+    limits.cpu: 100m
+    # TODO: Set good memory defaults
+    # request.memory: 100m
+    # limits.memory: 100m
