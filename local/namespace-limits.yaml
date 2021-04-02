@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ResourceQuota
-metadata:
-  name: espistio-limits
-  namespace: espistio
-spec:
-  hard:
-    requests.cpu: "5m"
-    limits.cpu: "100m"
